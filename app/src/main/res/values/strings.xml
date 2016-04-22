@@ -1,4 +1,6 @@
 <resources>
+    <string name="Welcome_Text">Welcome to Battery Tracker. You have no Batterys.</string>
     <string name="app_name">Battery Tracker</string>
     <string name="action_settings">Settings</string>
+    <string name="Add_Battery_Title">Add Battery</string>
 </resources>
