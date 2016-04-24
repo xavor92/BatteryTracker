@@ -13,10 +13,26 @@
     tools:showIn="@layout/activity_add_battery"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <TableRow
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Welcome_Text" />
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/value_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:text="@string/default_capacity" />
+
+        <TextView
+            android:id="@+id/value_capacity_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:text="@string/capacityUnit" />
 
 
+    </TableRow>
 </LinearLayout>
