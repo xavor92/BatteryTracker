@@ -6,4 +6,5 @@
     <string name="capacityUnit">mAh</string>
     <string name="save_button">Save</string>
     <string name="default_capacity">1000</string>
+    <string name="charged_switch">Charged</string>
 </resources>

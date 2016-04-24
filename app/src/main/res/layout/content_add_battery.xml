@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="numberDecimal"
+            android:gravity="right"
             android:text="@string/default_capacity" />
 
         <TextView
@@ -34,5 +35,18 @@
             android:text="@string/capacityUnit" />
 
 
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/charged_switch"
+            android:id="@+id/switch1"
+            android:checked="false" />
     </TableRow>
 </LinearLayout>
